@@ -1,0 +1,36 @@
+# Indexing API Automation
+
+This project automates the process of indexing URLs using the Google Indexing API.
+
+## Prerequisites
+
+- Node.js installed on your machine
+- A Google Cloud project with the Indexing API enabled
+- A service account key file (`key.json`)
+
+## Setup
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/gentritbiba/indexing-api.git
+    cd indexing-api
+    ```
+
+2. Install the dependencies:
+
+    ```sh
+    npm install
+    ```
+
+3. Add your service account key file:
+
+    - Rename `key_example.json` to `key.json`
+    - Fill in the required fields in `key.json` with your service account details
+
+## Usage
+
+To start the project, run:
+
+```sh
+npm run start
